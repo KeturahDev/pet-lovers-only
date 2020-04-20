@@ -1,8 +1,15 @@
-import React from "react"
+import React from "react";
+import PropTypes from "prop-types";
 
-function MessageName(){
+function MessageName(props){
   return(
-    <p>This guys name</p>
+    <React.Fragment>
+      <p>{props.name}</p>
+    </React.Fragment>
   );
+}
+
+MessageName.propTypes = {
+  name: PropTypes.string
 }
 export default MessageName;

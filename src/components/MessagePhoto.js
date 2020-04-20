@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './../logo192.png'
+import PropTypes from "prop-types";
 
-function MessagePhoto() {
+function MessagePhoto(props) {
   return (
     <React.Fragment>
-      <img src={logo} alt="message"/>
+      <img src={props.photo} alt="message"/>
     </React.Fragment>
   );
+}
+
+MessagePhoto.propTypes = {
+  photo: PropTypes.string
 }
 
 export default MessagePhoto;

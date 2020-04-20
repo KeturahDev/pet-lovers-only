@@ -3,13 +3,13 @@ import MessagePhoto from './MessagePhoto'
 import MessageName from './MessageName'
 import MessageBody from './MessageBody'
 
-function MessageCard(){
+function MessageCard(props){
   return(
     <React.Fragment>
-      <h1>this is a MessageCard</h1>
-      <MessagePhoto/>
-      <MessageName/>
-      <MessageBody/>
+      <MessagePhoto photo={props.photo}/>
+      <MessageName name={props.name}/>
+      <MessageBody body={props.body}/>
+      <hr/>
     </React.Fragment>
   );
 }

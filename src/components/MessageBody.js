@@ -1,11 +1,16 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
-function MessageBody() {
+function MessageBody(props) {
   return (
     <React.Fragment>
-      <p>hey there good lookin'. I like the dog.</p>
+      <p>{props.body}</p>
     </React.Fragment>
   );
+}
+
+MessageBody.propTypes = {
+  body: PropTypes.string,
 }
 
 export default MessageBody;

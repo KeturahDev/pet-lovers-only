@@ -1,9 +1,9 @@
 import React from "react";
 
-function ProfileHeadline() {
+function ProfileHeadline(props) {
   return(
     <React.Fragment>
-      <h4>Profile Headline</h4>
+      <h4>{props.headline}</h4>
     </React.Fragment>
   );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 
-function ProfileName() {
+function ProfileName(props) {
   return (
     <React.Fragment>
-      <h4>Profile Name</h4>
+      <h4>{props.name}</h4>
     </React.Fragment>
   );
 }

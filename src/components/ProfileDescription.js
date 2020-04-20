@@ -1,9 +1,9 @@
 import React from "react";
 
-function ProfileDescription() {
+function ProfileDescription(props) {
   return(
     <React.Fragment>
-      <p>Description iprsum blablablablablablabl blablablablabla </p>
+      <p>{props.description}</p>
     </React.Fragment>
   );
 }

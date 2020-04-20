@@ -11,7 +11,7 @@ Application based around practicing component trees.
 <img width="826" alt="Screen Shot 2020-04-20 at 9 40 47 AM" src="https://user-images.githubusercontent.com/32975967/79776794-1c2f2a80-82eb-11ea-96cf-7966c4fe398d.png">
 
 
-**[View Live Preview](https://admiring-hodgkin-6c8b1d.netlify.com/)**
+**[Deployed Applicatoin](https://keturahdev.github.io/pet-lovers-only/)**
 
 ## Description
 

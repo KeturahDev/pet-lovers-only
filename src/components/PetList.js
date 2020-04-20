@@ -4,20 +4,20 @@ import PetCard from './PetCard';
 
 const masterPetList = [
   {
-    name: "George",
-    imgSrc: "https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3-1200-80.jpg"
+    name: "Margret",
+    imgSrc: "https://cdn.britannica.com/s:700x500/89/149189-050-68D7613E/Bengal-tiger.jpg"
   },
   {
-    name: "tiger",
-    imgSrc: "https://www.aspca.org/sites/default/files/blog_apcc-foster-kitten-safety_060619_main.jpg"
+    name: "Tigger",
+    imgSrc: "https://i.pinimg.com/originals/47/a9/bb/47a9bbebcb72f513b7a3a2bcabae43ce.jpg"
   },
   {
-    name: "raj",
-    imgSrc: "https://i.ytimg.com/vi/Ep3jK1bZrB8/maxresdefault.jpg"
+    name: "Raj",
+    imgSrc: "http://cdn4.i-scmp.com/sites/default/files/images/methode/2017/02/10/012d6b1c-ef5e-11e6-8960-2c6b8565de23_972x.jpg"
   },
   {
     name: "Shere Khan",
-    imgSrc: "https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3-1200-80.jpg"
+    imgSrc: "https://i.pinimg.com/564x/11/57/a3/1157a3905a2932b5a1cc365b088e7d07.jpg"
   }
 ]
 

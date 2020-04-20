@@ -1,8 +1,11 @@
 # Social Media Clone
-## By: Ketuah Howard, Hristo Dzhambov, Matt Taylor|| April 20th 2020
+## By: Ketuah Howard, Hristo Dzhambov, Matt Taylor || April 20th 2020
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description 
+
+Fake dating website based around finding potential romance on terms of if others like your pets.
+
 Application based around practicing component trees.
 
 
@@ -74,4 +77,4 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 **_Keturah Howard, Alyssa Colistro, Mariam Alaeddin, K. Wicz_**
+Copyright (c) 2020 **_Keturah Howard, Hristo Dzhambov, Matt Taylor_**

@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 
 function PetCard(props) {
   const PetCardStyle={
-    border: '1px dashed blue'
+    padding: '3%'
   }
   return (
     <React.Fragment>
       <div style={PetCardStyle}>
-        <p>Pet Card</p>
         <PetPhoto photo={props.photo}/>
         <PetName name={props.name}/>
+        <hr/>
       </div>
     </React.Fragment>
   );

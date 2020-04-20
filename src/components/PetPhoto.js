@@ -3,7 +3,7 @@ import React from 'react';
 
 function PetPhoto(props) {
   const PetPhotoStyles = {
-    // height: '50px',
+    textAlign: 'center'
   }
   return (
     <React.Fragment>

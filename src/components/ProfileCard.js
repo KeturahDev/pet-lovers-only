@@ -3,26 +3,47 @@ import ProfilePhoto from "./ProfilePhoto";
 import ProfileName from "./ProfileName";
 import ProfileHeadline from "./ProfileHeadline";
 import ProfileDescription from "./ProfileDescription";
-import "./../styles/ProfileCard.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from "react-bootstrap";
 
 function ProfileCard() {
-  const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  const lorem = "Been a tiger momma for 29 years and proud of it! I bet my nine lives on you-oooo-ooo-hooo. stare at owner accusingly then wink, yet allways wanting food. Stare out the window rub my belly hiss scratch the box. Toy mouse squeak roll over trip on catnip and chase the pig around the house or i like fish, immediately regret falling into bathtub. Be superior walk on keyboard meowing non stop for food. Hate dog chase mice, so sleep yet paw at beetle and eat it before it gets away but sleep nap yet chase laser."
 
   const profileStyles = {
     backgroundColor: '#ecf0f1',
     fontFamily: 'sans-serif',
     paddingTop: '50px',
-    border: '2px solid red'
+    border: '2px solid red',
+    padding: '3%',
+    text: 'center',
+    textAlign: 'center'
+  }
+  const centerPhoto = {
+    textAlign: 'center'
   }
       return (
     <React.Fragment>
       <div style={profileStyles}>
-        <ProfilePhoto photo="https://www.abc.net.au/news/image/10693098-3x2-940x627.jpg"/>
-        <ProfileName name="Jordan"/>
-        <ProfileHeadline headline="Tiger queen"/>
-        <ProfileDescription description={lorem}/>
+      <Container >
+        <Row>
+          <div style={centerPhoto}>
+            <ProfilePhoto photo="https://www.abc.net.au/news/image/10693098-3x2-940x627.jpg"/>
+          </div>
+        </Row>
+        <Row>
+          <Col md={6}>
+            <ProfileName name="Jordan"/>
+          </Col>
+          <Col md={6}>
+            <ProfileHeadline headline="Tiger queen"/>
+          </Col>
+        </Row>
+        <Row>
+          <ProfileDescription description={lorem}/>       
+        </Row>
+      </Container>
       </div>
+
     </React.Fragment>
   );
 }

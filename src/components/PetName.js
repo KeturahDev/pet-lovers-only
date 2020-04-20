@@ -1,9 +1,9 @@
 import React from 'react';
 
-function PetName() {
+function PetName(props) {
   return (
     <React.Fragment>
-      <h3>Pet Name</h3>
+      <h3>{props.name}</h3>
     </React.Fragment>
   );
 }

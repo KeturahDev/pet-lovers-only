@@ -2,6 +2,7 @@ import React from 'react';
 import ProfileCard from "./ProfileCard";
 import MessageColumn from "./MessageColumn";
 import PetList from "./PetList";
+import NavBar from "./NavBar";
 // import './../index.css';
 // import "./../styles/ProfileCard.css";
 
@@ -9,7 +10,7 @@ import PetList from "./PetList";
 function App() {
   return (
     <React.Fragment>
-    <h1>hello world</h1>
+    <NavBar />
     <ProfileCard className="ProfileCard"/>
     <PetList/>
     <MessageColumn />

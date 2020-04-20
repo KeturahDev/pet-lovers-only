@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './../logo192.png';
+// import logo from './../logo192.png';
 
-function PetPhoto() {
+function PetPhoto(props) {
   return (
     <React.Fragment>
-      <img src={logo} alt="pet"/>
+      <img src={props.photo} alt="pet"/>
     </React.Fragment>
   );
 }

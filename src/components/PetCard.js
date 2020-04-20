@@ -11,7 +11,7 @@ function PetCard(props) {
     <React.Fragment>
       <div style={PetCardStyle}>
         <p>Pet Card</p>
-        <PetPhoto/>
+        <PetPhoto photo={props.photo}/>
         <PetName name={props.name}/>
       </div>
     </React.Fragment>

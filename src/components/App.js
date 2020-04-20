@@ -3,6 +3,7 @@ import ProfileCard from "./ProfileCard";
 import MessageColumn from "./MessageColumn";
 import PetList from "./PetList";
 import NavBar from "./NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from "react-bootstrap";
 
 function App() {

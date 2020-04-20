@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pet-lovers-only/static/css/main.daf4bd6e.chunk.css",
+    "main.js": "/pet-lovers-only/static/js/main.34763b94.chunk.js",
+    "main.js.map": "/pet-lovers-only/static/js/main.34763b94.chunk.js.map",
+    "runtime-main.js": "/pet-lovers-only/static/js/runtime-main.2f054dc1.js",
+    "runtime-main.js.map": "/pet-lovers-only/static/js/runtime-main.2f054dc1.js.map",
+    "static/css/2.69121389.chunk.css": "/pet-lovers-only/static/css/2.69121389.chunk.css",
+    "static/js/2.4cf3852a.chunk.js": "/pet-lovers-only/static/js/2.4cf3852a.chunk.js",
+    "static/js/2.4cf3852a.chunk.js.map": "/pet-lovers-only/static/js/2.4cf3852a.chunk.js.map",
+    "index.html": "/pet-lovers-only/index.html",
+    "precache-manifest.7cdaaf4fc982832e8a6253945be71b5a.js": "/pet-lovers-only/precache-manifest.7cdaaf4fc982832e8a6253945be71b5a.js",
+    "service-worker.js": "/pet-lovers-only/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/pet-lovers-only/static/css/2.69121389.chunk.css.map",
+    "static/css/main.daf4bd6e.chunk.css.map": "/pet-lovers-only/static/css/main.daf4bd6e.chunk.css.map",
+    "static/js/2.4cf3852a.chunk.js.LICENSE.txt": "/pet-lovers-only/static/js/2.4cf3852a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f054dc1.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.4cf3852a.chunk.js",
+    "static/css/main.daf4bd6e.chunk.css",
+    "static/js/main.34763b94.chunk.js"
+  ]
+}

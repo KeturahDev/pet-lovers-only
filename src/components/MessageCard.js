@@ -24,9 +24,9 @@ function MessageCard(props){
               <MessageName name={props.name}/>
               <MessageBody body={props.body}/>
             </Col>
-            <Col>
-              <Button variant="primary">This is the one!</Button>
-            </Col>
+          </Row>
+          <Row>
+            <Button variant="primary" block>This is the one!</Button>
           </Row>
         </Container>
         {/* </Card> */}

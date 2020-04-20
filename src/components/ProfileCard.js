@@ -26,9 +26,11 @@ function ProfileCard() {
       <div style={profileStyles}>
       <Container >
         <Row>
-          <div style={centerPhoto}>
-            <ProfilePhoto photo="https://www.abc.net.au/news/image/10693098-3x2-940x627.jpg"/>
-          </div>
+          <Col>
+            <div style={centerPhoto}>
+              <ProfilePhoto style={{width: '90%'}} photo="https://www.abc.net.au/news/image/10693098-3x2-940x627.jpg"/>
+            </div>
+          </Col>
         </Row>
         <Row>
           <Col md={6}>

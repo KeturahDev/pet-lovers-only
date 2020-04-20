@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function ProfileName(props) {
   return (
@@ -6,6 +7,10 @@ function ProfileName(props) {
       <h4>{props.name}</h4>
     </React.Fragment>
   );
+}
+
+ProfileName.propTypes = {
+  name: PropTypes.string
 }
 
 export default ProfileName;

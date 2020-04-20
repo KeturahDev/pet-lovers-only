@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function ProfileDescription(props) {
   return(
@@ -7,5 +8,9 @@ function ProfileDescription(props) {
     </React.Fragment>
   );
 }
+
+ProfileDescription.propTypes = {
+  description: PropTypes.string
+};
 
 export default ProfileDescription;

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function ProfileHeadline(props) {
   return(
@@ -7,5 +8,9 @@ function ProfileHeadline(props) {
     </React.Fragment>
   );
 }
+
+ProfileHeadline.propTypes = {
+  headline: PropTypes.string
+};
 
 export default ProfileHeadline;

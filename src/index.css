@@ -15,3 +15,7 @@ code {
 /* .ProfileCard{
   border: 2px solid red;
 } */
+
+img{
+  max-width: 300px;
+}

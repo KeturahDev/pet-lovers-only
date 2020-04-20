@@ -1,11 +1,11 @@
 import React from "react";
-import logo from './../logo192.png';
+// import logo from './../logo192.png';
 
 
-function ProfilePhoto(){
+function ProfilePhoto(props){
   return (
     <React.Fragment>
-      <img src={logo} alt="alt"/>
+      <img src={props.photo} alt="alt"/>
     </React.Fragment>
   );
 }

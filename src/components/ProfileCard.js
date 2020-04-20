@@ -18,7 +18,7 @@ function ProfileCard() {
       return (
     <React.Fragment>
       <div style={profileStyles}>
-        <ProfilePhoto />
+        <ProfilePhoto photo="https://www.abc.net.au/news/image/10693098-3x2-940x627.jpg"/>
         <ProfileName name="Jordan"/>
         <ProfileHeadline headline="Tiger queen"/>
         <ProfileDescription description={lorem}/>

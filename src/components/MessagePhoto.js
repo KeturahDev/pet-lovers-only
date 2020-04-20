@@ -2,9 +2,14 @@ import React from 'react';
 import PropTypes from "prop-types";
 
 function MessagePhoto(props) {
+  // const messagePhotos = {
+  //   maxHeight: '50px'
+  // }
   return (
     <React.Fragment>
-      <img src={props.photo} alt="message"/>
+      {/* <div styles={messagePhotos}> */}
+        <img style={{maxHeight: '100px'}} src={props.photo} alt="message"/>
+      {/* </div> */}
     </React.Fragment>
   );
 }
